@@ -395,19 +395,19 @@ function App() {
           <div className="flex flex-col items-center space-y-4">
             <div className="flex space-x-8">
               <a href="https://github.com/vultisig/vultisig-windows/releases/download/v1.0.18/Vultisig-amd64-installer-v1.0.18.exe" target="_blank" rel="noopener noreferrer">
-              <img src="public/windows-svgrepo-com.svg" alt="WINDOWS Logo" className="w-10 h-10 rounded-lg" />
+              <img src="/windows-svgrepo-com.svg" alt="WINDOWS Logo" className="w-10 h-10 rounded-lg" />
               </a>
               <a href="https://play.google.com/store/apps/details?id=com.vultisig.wallet" target="_blank" rel="noopener noreferrer">
-              <img src="public/play-1003-svgrepo-com.svg" alt="GOOGLE PLAY Logo" className="w-10 h-10 rounded-lg" />
+              <img src="/play-1003-svgrepo-com.svg" alt="GOOGLE PLAY Logo" className="w-10 h-10 rounded-lg" />
               </a>
               <a href="https://github.com/vultisig/vultisig-windows/releases/download/v1.0.18/vultisig_1.0.18_amd64.deb" target="_blank" rel="noopener noreferrer">
-              <img src="public/linux-svgrepo-com.svg" alt="LINUX Logo" className="w-10 h-10 rounded-lg" />
+              <img src="/linux-svgrepo-com.svg" alt="LINUX Logo" className="w-10 h-10 rounded-lg" />
               </a>
               <a href="https://github.com/vultisig/vultisig-ios/releases/download/v1.14.0/VultisigApp.v1.14.0.signed.pkg" target="_blank" rel="noopener noreferrer">
-              <img src="public/mac-screen-svgrepo-com.svg" alt="MACOS Logo" className="w-10 h-10 rounded-lg" />
+              <img src="/mac-screen-svgrepo-com.svg" alt="MACOS Logo" className="w-10 h-10 rounded-lg" />
               </a>
               <a href="https://apps.apple.com/app/vultisig/id6503023896" target="_blank" rel="noopener noreferrer">
-              <img src="public/apple-173-svgrepo-com.svg" alt="APP STORE Logo" className="w-10 h-10 rounded-lg" />
+              <img src="/apple-173-svgrepo-com.svg" alt="APP STORE Logo" className="w-10 h-10 rounded-lg" />
               </a>
             </div>
           </div>
