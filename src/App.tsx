@@ -60,7 +60,7 @@ function App() {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <img src="public/logo.png" alt="Vultisig Logo" className="w-8 h-8 rounded-lg" />
+              <img src="logo.png" alt="Vultisig Logo" className="w-8 h-8 rounded-lg" />
               <span className="text-2xl font-bold text-gray-900 dark:text-gray-100">Vultisig</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
@@ -321,12 +321,12 @@ function App() {
           </h2>
           <div className="border dark:border-none mx-auto top-4 left-0 right-0 bg-surface-light/80 dark:bg-surface-dark/80 backdrop-blur-sm z-50 p-12 rounded-xl shadow-md grid grid-cols-2 md:grid-cols-5 gap-12 items-center">
             {[
-              { name1: "THORChain", name2: "Treasury", img: "src/assets/thorchain.svg" },
-              { name1: "Vultisig", name2: "Treasury", img: "src/assets/vultisig.svg" },
-              { name1: "WEWE", name2: "Treasury", img: "src/assets/wewe.svg" },
-              { name1: "DeFi Suisse", name2: "Treasury", img: "src/assets/Defi-suisse-treasury.svg" },
-              { name1: "ZKFinance", name2: "Treasury", img: "/src/assets/zkfinance.svg" },
-              { name1: "Ruji", name2: "Treasury", img: "/src/assets/ruji.svg" },
+              { name1: "THORChain", name2: "Treasury", img: "thorchain.svg" },
+              { name1: "Vultisig", name2: "Treasury", img: "vultisig.svg" },
+              { name1: "WEWE", name2: "Treasury", img: "wewe.svg" },
+              { name1: "DeFi Suisse", name2: "Treasury", img: "Defi-suisse-treasury.svg" },
+              { name1: "ZKFinance", name2: "Treasury", img: "zkfinance.svg" },
+              { name1: "Ruji", name2: "Treasury", img: "ruji.svg" },
             ].map((company, index) => (
               <div key={index} className="flex flex-col items-center text-center">
                 <img
