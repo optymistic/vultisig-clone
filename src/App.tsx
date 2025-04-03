@@ -92,9 +92,9 @@ function App() {
               >
                 Docs
               </a>
-              <button className="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-dark transition-colors">
+              <a href="#Download" className="bg-primary text-white px-6 py-2 rounded-full hover:bg-primary-dark transition-colors">
                 Download Now
-              </button>
+              </a>
               <ThemeToggle />
             </div>
           </div>
@@ -145,12 +145,8 @@ function App() {
             </div>
           </div>
           <div className="max-w-4xl mx-auto">
-            <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-              Vultisig uses MPC (multi party computation) to eliminate the need for seed phrases or private key to
-              manage your onchain assets.
-            </p>
             <img
-              src="https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=2832&ixlib=rb-4.0.3"
+              src="https://cdn.prod.website-files.com/623ad174ca1da302c912e9e4/62a30ead6817be04825d2fad_MPC%20multi-party%20computation%20crypto.png"
               alt="Digital Security Visualization"
               className="rounded-2xl shadow-2xl"
             />
@@ -324,7 +320,7 @@ function App() {
               { name1: "THORChain", name2: "Treasury", img: "thorchain.svg" },
               { name1: "Vultisig", name2: "Treasury", img: "vultisig.svg" },
               { name1: "WEWE", name2: "Treasury", img: "wewe.svg" },
-              { name1: "DeFi Suisse", name2: "Treasury", img: "Defi-suisse-treasury.svg" },
+              { name1: "DeFi Suisse", name2: "Treasury", img: "DeFi-suisse-treasury.svg" },
               { name1: "ZKFinance", name2: "Treasury", img: "zkfinance.svg" },
               { name1: "Ruji", name2: "Treasury", img: "ruji.svg" },
             ].map((company, index) => (
