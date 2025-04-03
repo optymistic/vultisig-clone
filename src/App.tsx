@@ -14,7 +14,7 @@ import {
   ChevronDown,
 } from "lucide-react"
 import { useState } from "react";
-import xLogo from "./assets/x-logo.svg"
+import xLogo from "/x-logo.svg"
 import { ThemeToggle } from "./components/ThemeToggle"
 
 const faqs = [
